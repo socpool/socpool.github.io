@@ -1,0 +1,20 @@
+
+// Custom.scss
+// Option A: Include all of Bootstrap
+$enable-gradients: true;
+
+.card {
+    .title
+    {
+        border-bottom: 1px solid grey;
+        .name {
+            font-weight: bold;
+        }
+    }
+    .body
+    {
+        margin-left: 6px;
+    }
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
